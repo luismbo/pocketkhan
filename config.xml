@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="org.khanacademy.pocketkhan"
+        version="0.0.1">
+
+  <name>Pocket Khan</name>
+  <description>Khan Academy in your pocket!</description>
+
+  <author href="http://r42.eu/~luis" email="luis@r42.eu">
+    Luís Oliveira
+  </author>
+
+  <gap:platforms>
+    <gap:platform name="android" minVersion="2.1" />
+    <gap:platform name="webos" />
+    <gap:platform name="symbian.wrt" />
+    <gap:platform name="blackberry" project="widgets"/>
+  </gap:platforms>
+
+  <icon src="icon.png" gap:role="default" />
+        
+  <feature name="http://api.phonegap.com/1.0/geolocation"/>
+  <feature name="http://api.phonegap.com/1.0/network"/>
+</widget>
